@@ -56,7 +56,5 @@ public class TicTacLogic {
 			// Resetear para el proximo juego
 			ticTacField = "000000000";
 		}
-		
-		KnowledgeHolder.getInstance().dump();
 	}
 }
