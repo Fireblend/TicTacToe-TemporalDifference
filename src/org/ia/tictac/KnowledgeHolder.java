@@ -210,7 +210,7 @@ public class KnowledgeHolder {
     
     public void dump(){
     	for(String string : knowledge.keySet()){
-    		if(knowledge.get(string)>0.95) System.out.println(string + " -> " + knowledge.get(string));
+    		System.out.println(string + " -> " + knowledge.get(string));
     	}
     }
 }
